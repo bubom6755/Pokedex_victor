@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import { Container, Button, Box } from "@mui/material";
+import { Container, Button, Box, useMediaQuery } from "@mui/material";
 import Navbar from "./components/Navbar";
 import PokemonPreviewCard from "./components/PokemonPreviewCard";
 import PokemonDetailPage from "./components/PokemonDetailPage";
@@ -139,7 +139,9 @@ function App() {
                     style={{
                       display: "flex",
                       flexWrap: "wrap",
-                      justifyContent: "space-between",
+                      justifyContent: useMediaQuery("(max-width: 600px)")
+                        ? "center"
+                        : "space-between",
                     }}
                   >
                     {currentPokemons.map((pokemon) => (

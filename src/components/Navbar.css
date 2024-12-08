@@ -1,0 +1,29 @@
+/* Navbar.css */
+.MuiAppBar-root {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .MuiInputLabel-root {
+    color: #fff;
+  }
+  
+  .MuiSelect-root {
+    background-color: #333 !important;
+    color: #fff;
+  }
+  
+  .MuiTextField-root input {
+    color: #fff;
+  }
+  
+  .MuiTextField-root .MuiOutlinedInput-root {
+    border-color: #fff;
+  }
+  
+  .MuiSelect-icon {
+    color: #fff;
+  }
+  
+  .css-81qg8w{
+    color: #fff;
+  }

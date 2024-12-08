@@ -1,0 +1,9 @@
+{
+    "loading": "Loading Pokémon data...",
+    "notFound": "Pokémon not found!",
+    "stats": "Stats",
+    "evolutions": "Evolutions",
+    "previousPokemon": "Previous Pokémon",
+    "nextPokemon": "Next Pokémon"
+  }
+  
